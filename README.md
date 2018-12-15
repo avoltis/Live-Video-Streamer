@@ -1,6 +1,7 @@
 # Live Video Streamer Client and API
 In both API and client project directories make sure you run:
 
+npm install
 npm start
 
 Runs the app in the development mode.
