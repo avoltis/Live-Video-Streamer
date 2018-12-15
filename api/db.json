@@ -1,3 +1,9 @@
 {
-    "streams" : []
+  "streams": [
+    {
+      "title": "volti",
+      "description": "test",
+      "id": 1
+    }
+  ]
 }
