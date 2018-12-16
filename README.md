@@ -8,7 +8,7 @@ Create and stream videos with a react redux web app
 Install the setup and configure video and audio input on it. 
 Record some video with audio.
 
-#Start the web app
+# Start the web app
 In all 3 project directories API, rtmpserver and client project make sure you run:
 
 `npm install`
