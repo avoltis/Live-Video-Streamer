@@ -47,9 +47,12 @@ export const fetchStream = (id) => async dispach => {
 }
 
 export const editStream = (id, formValues) => async dispach => {
-    const response = await streams.put('/streams/' + id, formValues);
+    const response = await streams.patch('/streams/' + id, formValues);
 
     dispach({ type: EDIT_STREAM, payload: response.data });
+
+    //programatic navitation after creating stream
+    history.push('/');
 }
 
 export const deleteStream = (id) => async dispach => {
