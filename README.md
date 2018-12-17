@@ -2,12 +2,6 @@
 
 Create and stream videos with a react redux web app
 
-# Install OBS software
-`https://obsproject.com/`
-
-Install the setup and configure video and audio input on it. 
-Record some video with audio to test it.
-
 # Start the web app
 In all 3 project directories API, rtmpserver and client project make sure you run:
 
@@ -20,6 +14,13 @@ Open http://localhost:3000 to view client in the browser.
 Open http://localhost:3001/streams to view api in the browser.
 
 # Configure  OBS to live stream from your pc
+
+Install OBS software
+`https://obsproject.com/`
+
+Install the setup and configure video and audio input on it. 
+Record some video with audio to test it.
+
 Open OBS On Settings select stream , custom streaming server
 
 URL: rtmp://localhost/live
